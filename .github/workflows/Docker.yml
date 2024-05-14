@@ -35,6 +35,6 @@ jobs:
     # Push is a shorthand for --output=type=registry
         push: true
     # List of tags
-        tags: rafael.braga.silvano@gmail.com/testeci
+        tags: RafaelBSilvano/testeci
           
           
