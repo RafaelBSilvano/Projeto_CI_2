@@ -13,7 +13,7 @@ jobs:
     - name: Setup Docker build
       uses: docker/setup-buildx-action@v3.3.0
 
-   - name: Download a Build Artifact
+    - name: Download a Build Artifact
       uses: actions/download-artifact@v4.1.7
       with:
     # Name of the artifact to download. If unspecified, all artifacts for the run are downloaded.
